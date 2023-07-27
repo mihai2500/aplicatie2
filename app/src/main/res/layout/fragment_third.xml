@@ -8,7 +8,7 @@
     tools:context=".ThirdFragment">
 
     <FrameLayout
-        android:id="@+id/frameLayout"
+        android:id="@+id/frameLayout0"
         android:layout_width="410dp"
         android:layout_height="100dp"
         android:background="#2196F3"
@@ -47,7 +47,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frameLayout3"
+        android:id="@+id/frameLayout1"
         android:layout_width="416dp"
         android:layout_height="152dp"
         android:layout_marginTop="13dp"
@@ -92,7 +92,7 @@
         android:background="#2196f3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout0"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -122,14 +122,14 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frameLayout4"
+        android:id="@+id/frameLayout3"
         android:layout_width="412dp"
         android:layout_height="89dp"
         android:layout_marginTop="13dp"
         android:background="#2196f3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout1">
 
         <EditText
             android:id="@+id/points_endgame"
@@ -165,7 +165,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:background="#2196f3"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3">
 
         <EditText
             android:id="@+id/points_penalties"
